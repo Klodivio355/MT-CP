@@ -7,7 +7,7 @@ Replace placeholders: <...>
 <div align="center">
 
 <!-- Banner / Hero image -->
-<img src="model_trace_back_2.png" width="60%" />
+<img src="model_trace_back_2.png" width="90%" />
 
 # Optimizing Dense Visual Predictions Through Multi-Task Coherence and Prioritization - WACV 2025 
 ### <Optimizing Dense Visual Predictions Through Multi-Task Coherence and Prioritization>
