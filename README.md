@@ -7,7 +7,7 @@ Replace placeholders: <...>
 <div align="center">
 
 <!-- Banner / Hero image -->
-<img src="model_trace_back_2" alt="MT-CP banner" width="60%" />
+<img src="model_trace_back_2.png" width="60%" />
 
 # Optimizing Dense Visual Predictions Through Multi-Task Coherence and Prioritization - WACV 2025 
 ### <Optimizing Dense Visual Predictions Through Multi-Task Coherence and Prioritization>
@@ -41,7 +41,7 @@ Furthermore, we present a novel dynamic task balancing approach that projects ta
 ## 🔥 Results Visualisation
 
 <div align="center">
-  <img src="nyud_vis.pdf", width="90%" />
+  <img src="nyud_vis.png", width="70%" />
 </div>
 
 ---
