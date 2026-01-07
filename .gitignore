@@ -1,0 +1,12 @@
+dataset
+env
+output
+pre_train
+hf_cache
+pretrained_minigpt4.pth
+vicuna-7b-v0
+pretrained_minigpt4.*
+wandb
+models.einops
+*pycache*
+*.sh
