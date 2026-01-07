@@ -1,0 +1,40 @@
+# Setup
+setup: multi_task
+
+# Database
+train_db_name: NYUD
+val_db_name: NYUD 
+trBatch: 2
+valBatch: 2
+nworkers: 2
+
+# Optimizer and scheduler
+epochs: 100
+optimizer: adamw
+optimizer_kwargs:
+   lr: 0.00005
+   weight_decay: 0.0001
+scheduler: poly
+
+# Model
+model: SingleTaskModelDepth #MultiTask_Former
+backbone: swim_transformer2
+backbone_kwargs:
+   pretrained: True
+   dilated: False
+head: deeplab2
+
+eval_final_10_epochs_only : True
+gradient_surgery: True
+
+# Tasks
+task_dictionary:
+   include_semseg: False
+   include_depth: True
+
+# Loss kwargs
+# Loss kwargs
+loss_kwargs:
+   loss_scheme: static
+   loss_weights:
+       depth: 1.0
